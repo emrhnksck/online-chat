@@ -29,8 +29,10 @@ gem "jbuilder"
 
 gem "better_errors"
 
+gem 'concurrent-ruby'
+
 # Use Redis adapter to run Action Cable in production
-# gem "redis", "~> 4.0"
+gem "redis", "~> 4.0"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -74,3 +76,7 @@ group :test do
 end
 
 gem "devise", "~> 4.8"
+
+gem "hotwire-rails", "~> 0.1.3"
+
+gem "tailwindcss-rails", "~> 2.0"
